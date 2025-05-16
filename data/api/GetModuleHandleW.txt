@@ -1,0 +1,4 @@
+type:func dll:kernel32
+HMODULE GetModuleHandleW(
+ [in, optional] LPCWSTR lpModuleName
+);

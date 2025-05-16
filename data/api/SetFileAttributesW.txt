@@ -1,0 +1,5 @@
+type:func dll:kernel32
+BOOL SetFileAttributesW(
+ [in] LPCWSTR lpFileName,
+ [in] DWORD dwFileAttributes
+);

@@ -1,0 +1,5 @@
+type:func dll:kernel32
+FARPROC GetProcAddress(
+ [in] HMODULE hModule,
+ [in] LPCSTR lpProcName
+);

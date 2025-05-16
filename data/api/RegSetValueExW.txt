@@ -1,0 +1,9 @@
+type:func dll:advapi32
+LONG RegSetValueExW(
+ [in] HKEY hKey,
+ [in, optional] LPCWSTR lpValueName,
+ [in] DWORD Reserved,
+ [in] DWORD dwType,
+ [in, optional] const BYTE lpData,
+ [in] DWORD cbData
+);

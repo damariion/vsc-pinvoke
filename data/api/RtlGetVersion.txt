@@ -1,0 +1,4 @@
+type:func dll:ntdll
+NTSTATUS RtlGetVersion(
+ [in, out] PRTL_OSVERSIONINFOW lpVersionInformation
+);

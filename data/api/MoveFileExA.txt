@@ -1,0 +1,6 @@
+type:func dll:kernel32
+BOOL MoveFileExA(
+ [in] LPCSTR lpExistingFileName,
+ [in] LPCSTR lpNewFileName,
+ [in] DWORD dwFlags
+);

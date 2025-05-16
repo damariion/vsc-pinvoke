@@ -1,0 +1,4 @@
+type:func dll:kernel32
+BOOL Wow64DisableWow64FsRedirection(
+ [out] PVOID * OldValue
+);

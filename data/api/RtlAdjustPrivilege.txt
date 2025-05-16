@@ -1,0 +1,7 @@
+type:func dll:ntdll
+NTSTATUS RtlAdjustPrivilege(
+ [in] ULONG Privilege,
+ [in] BOOLEAN Enable,
+ [in] BOOLEAN CurrentThread,
+ [out] PBOOLEAN Enabled
+);

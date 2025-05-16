@@ -1,0 +1,5 @@
+type:func dll:advapi32
+LONG RegDeleteKeyW(
+ [in] HKEY hKey,
+ [in] LPCWSTR lpSubKey
+);

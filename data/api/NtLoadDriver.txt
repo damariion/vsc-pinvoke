@@ -1,0 +1,4 @@
+type:func dll:ntdll
+NTSTATUS NtLoadDriver(
+ [in] PUNICODE_STRING DriverServiceName
+);

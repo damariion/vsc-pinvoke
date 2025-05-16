@@ -1,0 +1,5 @@
+type:func dll:ntdll
+VOID RtlZeroMemory(
+ [out] PVOID Destination,
+ [in] SIZE_T Length
+);

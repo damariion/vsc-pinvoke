@@ -1,0 +1,8 @@
+type:func dll:ntdll
+NTSTATUS NtWriteVirtualMemory(
+ [in] HANDLE ProcessHandle,
+ [in] PVOID BaseAddress,
+ [in] PVOID Buffer,
+ [in] ULONG BufferLength,
+ [out, optional] PULONG ReturnLength
+);

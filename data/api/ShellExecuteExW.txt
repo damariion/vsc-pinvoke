@@ -1,0 +1,4 @@
+type:func dll:shell32
+BOOL ShellExecuteExW(
+ [in, out] LPSHELLEXECUTEINFOW pExecInfo
+);

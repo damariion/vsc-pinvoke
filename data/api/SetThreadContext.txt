@@ -1,0 +1,5 @@
+type:func dll:kernel32
+BOOL SetThreadContext(
+ [in] HANDLE hThread,
+ [in] const CONTEXT * lpContext
+);

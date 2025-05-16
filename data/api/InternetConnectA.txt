@@ -1,0 +1,11 @@
+type:func dll:wininet
+HINTERNET InternetConnectA(
+ [in] HINTERNET hInternet,
+ [in] LPCSTR lpszServerName,
+ [in] INTERNET_PORT nServerPort,
+ [in, optional] LPCSTR lpszUsername,
+ [in, optional] LPCSTR lpszPassword,
+ [in] DWORD dwService,
+ [in] DWORD dwFlags,
+ [in, optional] DWORD_PTR dwContext
+);

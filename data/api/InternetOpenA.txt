@@ -1,0 +1,8 @@
+type:func dll:wininet
+HINTERNET InternetOpenA(
+ [in] LPCSTR lpszAgent,
+ [in] DWORD dwAccessType,
+ [in, optional] LPCSTR lpszProxyName,
+ [in, optional] LPCSTR lpszProxyBypass,
+ [in] DWORD dwFlags
+);

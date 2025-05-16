@@ -1,0 +1,4 @@
+type:func dll:kernel32
+HMODULE LoadLibraryA(
+ [in] LPCSTR lpLibFileName
+);

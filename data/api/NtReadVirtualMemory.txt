@@ -1,0 +1,8 @@
+type:func dll:ntdll
+NTSTATUS NtReadVirtualMemory(
+ [in] HANDLE ProcessHandle,
+ [in] PVOID BaseAddress,
+ [out] PVOID Buffer,
+ [in] ULONG BufferLength,
+ [out, optional] PULONG ReturnLength
+);

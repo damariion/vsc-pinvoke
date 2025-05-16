@@ -1,0 +1,6 @@
+type:func dll:kernel32
+BOOL VirtualFree(
+ [in] LPVOID lpAddress,
+ [in] SIZE_T dwSize,
+ [in] DWORD dwFreeType
+);

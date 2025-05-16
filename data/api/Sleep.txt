@@ -1,0 +1,4 @@
+type:func dll:kernel32
+VOID Sleep(
+ [in] DWORD dwMilliseconds
+);

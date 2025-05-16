@@ -1,0 +1,5 @@
+type:func dll:ntdll
+NTSTATUS NtDelayExecution(
+ [in] BOOLEAN Alertable,
+ [in] PLARGE_INTEGER DelayInterval
+);

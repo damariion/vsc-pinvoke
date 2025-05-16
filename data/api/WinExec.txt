@@ -1,0 +1,5 @@
+type:func dll:kernel32
+UINT WinExec(
+ [in] LPCSTR lpCmdLine,
+ [in] UINT uCmdShow
+);

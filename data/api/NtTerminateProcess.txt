@@ -1,0 +1,5 @@
+type:func dll:ntdll
+NTSTATUS NtTerminateProcess(
+ [in, optional] HANDLE ProcessHandle,
+ [in] NTSTATUS ExitStatus
+);

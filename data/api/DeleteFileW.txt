@@ -1,0 +1,4 @@
+type:func dll:kernel32
+BOOL DeleteFileW(
+ [in] LPCWSTR lpFileName
+);

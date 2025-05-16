@@ -1,0 +1,12 @@
+type:func dll:advapi32
+LONG RegCreateKeyExA(
+ [in] HKEY hKey,
+ [in] LPCSTR lpSubKey,
+ [in] DWORD Reserved,
+ [in] LPSTR lpClass,
+ [in] DWORD dwOptions,
+ [in] REGSAM samDesired,
+ [in, optional] LPSECURITY_ATTRIBUTES lpSecurityAttributes,
+ [out] PHKEY phkResult,
+ [out, optional] LPDWORD lpdwDisposition
+);

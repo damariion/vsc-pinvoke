@@ -1,0 +1,4 @@
+type:func dll:kernel32
+HMODULE LoadLibraryW(
+ [in] LPCWSTR lpLibFileName
+);

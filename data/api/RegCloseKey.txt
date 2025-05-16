@@ -1,0 +1,4 @@
+type:func dll:advapi32
+LONG RegCloseKey(
+ [in] HKEY hKey
+);

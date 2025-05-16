@@ -1,0 +1,8 @@
+type:func dll:ntdll
+NTSTATUS NtQueueApcThread(
+ [in] HANDLE ThreadHandle,
+ [in] PIO_APC_ROUTINE ApcRoutine,
+ [in, optional] PVOID ApcArgument1,
+ [in, optional] PVOID ApcArgument2,
+ [in, optional] PVOID ApcArgument3
+);

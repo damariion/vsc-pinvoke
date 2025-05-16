@@ -1,0 +1,6 @@
+type:func dll:ntdll
+VOID RtlMoveMemory(
+ [out] PVOID Destination,
+ [in] const VOID * Source,
+ [in] SIZE_T Length
+);

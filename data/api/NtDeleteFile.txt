@@ -1,0 +1,4 @@
+type:func dll:ntdll
+NTSTATUS NtDeleteFile(
+ [in] POBJECT_ATTRIBUTES ObjectAttributes
+);

@@ -1,0 +1,7 @@
+type:func dll:ntdll
+NTSTATUS NtQuerySystemInformation(
+ [in] SYSTEM_INFORMATION_CLASS SystemInformationClass,
+ [out] PVOID SystemInformation,
+ [in] ULONG SystemInformationLength,
+ [out, optional] PULONG ReturnLength
+);

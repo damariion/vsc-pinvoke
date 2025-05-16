@@ -1,0 +1,16 @@
+# Ignore all dev stuff
+.vscode/**
+.vscode-test.*
+src/**
+test/**
+*.ts
+*.map
+tsconfig.json
+eslint.config.mjs
+.gitignore
+.vsc-extension-quickstart.md
+package-lock.json
+node_modules/
+
+# Ignore the VSIX output itself if it's in the folder
+*.vsix

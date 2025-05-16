@@ -1,0 +1,8 @@
+type:func dll:advapi32
+LONG RegOpenKeyExA(
+ [in] HKEY hKey,
+ [in] LPCSTR lpSubKey,
+ [in] DWORD ulOptions,
+ [in] REGSAM samDesired,
+ [out] PHKEY phkResult
+);

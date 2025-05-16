@@ -1,0 +1,6 @@
+type:func dll:ntdll
+NTSTATUS NtWaitForSingleObject(
+ [in] HANDLE Handle,
+ [in] BOOLEAN Alertable,
+ [in, optional] PLARGE_INTEGER Timeout
+);

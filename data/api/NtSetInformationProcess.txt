@@ -1,0 +1,7 @@
+type:func dll:ntdll
+NTSTATUS NtSetInformationProcess(
+ [in] HANDLE ProcessHandle,
+ [in] PROCESSINFOCLASS ProcessInformationClass,
+ [in] PVOID ProcessInformation,
+ [in] ULONG ProcessInformationLength
+);

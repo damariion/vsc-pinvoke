@@ -1,0 +1,5 @@
+type:func dll:ntdll
+NTSTATUS NtUnmapViewOfSection(
+ [in] HANDLE ProcessHandle,
+ [in] PVOID BaseAddress
+);

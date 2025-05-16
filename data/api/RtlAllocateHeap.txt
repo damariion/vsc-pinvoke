@@ -1,0 +1,6 @@
+type:func dll:ntdll
+PVOID RtlAllocateHeap(
+ [in] PVOID HeapHandle,
+ [in] ULONG Flags,
+ [in] SIZE_T Size
+);

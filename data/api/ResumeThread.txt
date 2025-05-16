@@ -1,0 +1,4 @@
+type:func dll:kernel32
+DWORD ResumeThread(
+ [in] HANDLE hThread
+);

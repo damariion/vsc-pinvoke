@@ -1,0 +1,8 @@
+type:func dll:ntdll
+NTSTATUS NtProtectVirtualMemory(
+ [in] HANDLE ProcessHandle,
+ [in, out] PVOID * BaseAddress,
+ [in, out] PSIZE_T RegionSize,
+ [in] ULONG NewProtect,
+ [out] PULONG OldProtect
+);

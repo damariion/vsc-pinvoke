@@ -1,0 +1,8 @@
+type:func dll:ntdll
+NTSTATUS NtQueryInformationThread(
+ [in] HANDLE ThreadHandle,
+ [in] THREADINFOCLASS ThreadInformationClass,
+ [out] PVOID ThreadInformation,
+ [in] ULONG ThreadInformationLength,
+ [out, optional] PULONG ReturnLength
+);

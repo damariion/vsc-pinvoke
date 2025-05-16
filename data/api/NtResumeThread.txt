@@ -1,0 +1,5 @@
+type:func dll:ntdll
+NTSTATUS NtResumeThread(
+ [in] HANDLE ThreadHandle,
+ [out, optional] PULONG SuspendCount
+);

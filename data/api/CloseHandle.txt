@@ -1,0 +1,4 @@
+type:func dll:kernel32
+BOOL CloseHandle(
+ [in] HANDLE hObject
+);

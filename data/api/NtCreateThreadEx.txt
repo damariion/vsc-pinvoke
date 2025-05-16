@@ -1,0 +1,14 @@
+type:func dll:ntdll
+NTSTATUS NtCreateThreadEx(
+ [out] PHANDLE ThreadHandle,
+ [in] ACCESS_MASK DesiredAccess,
+ [in, optional] POBJECT_ATTRIBUTES ObjectAttributes,
+ [in] HANDLE ProcessHandle,
+ [in] PVOID StartAddress,
+ [in, optional] PVOID Parameter,
+ [in] ULONG CreateFlags,
+ [in, optional] SIZE_T ZeroBits,
+ [in, optional] SIZE_T StackSize,
+ [in, optional] SIZE_T MaximumStackSize,
+ [in, optional] PVOID AttributeList
+);

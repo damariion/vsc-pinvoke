@@ -1,0 +1,8 @@
+type:func dll:kernel32
+BOOL WriteFile(
+ [in] HANDLE hFile,
+ [in] LPCVOID lpBuffer,
+ [in] DWORD nNumberOfBytesToWrite,
+ [out, optional] LPDWORD lpNumberOfBytesWritten,
+ [in, optional] LPOVERLAPPED lpOverlapped
+);

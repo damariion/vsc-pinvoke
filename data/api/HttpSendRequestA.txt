@@ -1,0 +1,8 @@
+type:func dll:wininet
+BOOL HttpSendRequestA(
+ [in] HINTERNET hRequest,
+ [in, optional] LPCSTR lpszHeaders,
+ [in] DWORD dwHeadersLength,
+ [in, optional] LPVOID lpOptional,
+ [in] DWORD dwOptionalLength
+);

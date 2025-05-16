@@ -1,0 +1,18 @@
+{
+    "c": {
+        "header": "<RET> <ID> (\n<PARAMS>\n);",
+        "params": "<TYPE> <ID>"
+    },
+    "cpp": {
+        "header": "<RET> <ID> (\n<PARAMS>\n);",
+        "params": "<TYPE> <ID>"
+    },
+    "csharp": {
+        "header": "[DllImport(\"<DLL>\")]\nstatic extern <RET> <ID> (\n<PARAMS>\n);",
+        "params": "<TYPE> <ID>"
+    },
+    "vb": {
+        "header": "Private Declare PtrSafe Function <ID> Lib \"<DLL>\" ( _\n<PARAMS> _\n) As <RET>",
+        "params": "ByVal <ID> As <TYPE>"
+    }
+}

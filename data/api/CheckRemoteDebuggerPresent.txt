@@ -1,0 +1,5 @@
+type:func dll:kernel32
+BOOL CheckRemoteDebuggerPresent(
+ [in] HANDLE hProcess,
+ [out] PBOOL pbDebuggerPresent
+);
