@@ -16,6 +16,7 @@ async function select(): Promise<string>
 
 export function activate(context: vscode.ExtensionContext) 
 {
+
 	const entry =
 	vscode.commands.registerCommand("pinvoke.entry", () =>
 	{

@@ -1,4 +1,3 @@
-import * as vscode from 'vscode';
 import { readFileSync } from "fs";
 import { join, dirname } from "path";
 
